@@ -1,0 +1,48 @@
+[04-Jul-2025 20:27:59 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/admin-new-users.php:36
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/admin-new-users.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/admin-new-users.php on line 36
+[04-Jul-2025 20:29:06 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/auth/api/admin-new-users.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/auth/api/admin-new-users.php on line 39
+[05-Jul-2025 13:06:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/auth/api/admin-new-users.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/auth/api/admin-new-users.php on line 39
+[06-Jul-2025 17:53:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/edit_user.php:94
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/edit_user.php(94): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/edit_user.php on line 94
+[06-Jul-2025 18:37:47 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/get_user.php:33
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/get_user.php(33): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/get_user.php on line 33
+[07-Jul-2025 13:46:03 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/add_user.php:62
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/add_user.php(62): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/add_user.php on line 62
+[07-Jul-2025 18:50:17 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/get_user.php:35
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/get_user.php(35): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/get_user.php on line 35
+[07-Jul-2025 18:50:34 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/get_user.php:35
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/get_user.php(35): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/get_user.php on line 35
+[08-Jul-2025 17:24:13 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/get_user.php:35
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/get_user.php(35): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/get_user.php on line 35
+[08-Jul-2025 17:24:42 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/xtreme/public_html/auth/api/get_user.php:35
+Stack trace:
+#0 /home/xtreme/public_html/auth/api/get_user.php(35): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/api/get_user.php on line 35

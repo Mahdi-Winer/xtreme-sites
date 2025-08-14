@@ -1,0 +1,110 @@
+[26-Jul-2025 20:00:49 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 18
+[26-Jul-2025 20:00:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 18
+[26-Jul-2025 20:00:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/client/playtime_get.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/playtime_get.php on line 21
+[26-Jul-2025 20:00:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/client/gamename_get_all.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/gamename_get_all.php on line 21
+[26-Jul-2025 20:01:30 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/client/gamename_get_all.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/gamename_get_all.php on line 21
+[26-Jul-2025 20:02:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/client/playtime_get.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/playtime_get.php on line 21
+[26-Jul-2025 20:02:57 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 18
+[26-Jul-2025 20:02:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 18
+[26-Jul-2025 20:06:56 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:06:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:11:21 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:11:21 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:11:42 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:11:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:15:47 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:15:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:17:47 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:17:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:18:16 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:18:16 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:20:30 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:20:30 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:27:24 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:27:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:27:39 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:27:39 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:28:18 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:28:18 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:29:15 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:29:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:29:22 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:29:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:39:14 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:39:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:44:55 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:44:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:51:13 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:51:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:53:10 Asia/Tehran] PHP Warning:  Undefined variable $pdo in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:53:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 22
+[26-Jul-2025 20:54:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/client/session_get_all.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/client/session_get_all.php on line 27

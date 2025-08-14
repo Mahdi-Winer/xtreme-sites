@@ -1,0 +1,28 @@
+[27-Jul-2025 20:49:15 Asia/Tehran] PHP Warning:  Undefined variable $darkThemeActive in /home/xtrcom/public_html/dashboard/ticket.php on line 265
+[27-Jul-2025 20:49:18 Asia/Tehran] PHP Warning:  Undefined variable $darkThemeActive in /home/xtrcom/public_html/dashboard/ticket.php on line 265
+[27-Jul-2025 20:49:48 Asia/Tehran] PHP Warning:  Undefined variable $darkThemeActive in /home/xtrcom/public_html/dashboard/ticket.php on line 265
+[28-Jul-2025 19:04:24 Asia/Tehran] PHP Warning:  include(/home/xtrcom/public_html/dashboard/includes/includes/dashboard-styles.php): Failed to open stream: No such file or directory in /home/xtrcom/public_html/dashboard/includes/dashboard-navbar.php on line 65
+[28-Jul-2025 19:04:24 Asia/Tehran] PHP Warning:  include(/home/xtrcom/public_html/dashboard/includes/includes/dashboard-styles.php): Failed to open stream: No such file or directory in /home/xtrcom/public_html/dashboard/includes/dashboard-navbar.php on line 65
+[28-Jul-2025 19:04:24 Asia/Tehran] PHP Warning:  include(): Failed opening '/home/xtrcom/public_html/dashboard/includes/includes/dashboard-styles.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtrcom/public_html/dashboard/includes/dashboard-navbar.php on line 65
+[28-Jul-2025 19:04:34 Asia/Tehran] PHP Warning:  include(/home/xtrcom/public_html/dashboard/includesdashboard-styles.php): Failed to open stream: No such file or directory in /home/xtrcom/public_html/dashboard/includes/dashboard-navbar.php on line 65
+[28-Jul-2025 19:04:34 Asia/Tehran] PHP Warning:  include(/home/xtrcom/public_html/dashboard/includesdashboard-styles.php): Failed to open stream: No such file or directory in /home/xtrcom/public_html/dashboard/includes/dashboard-navbar.php on line 65
+[28-Jul-2025 19:04:34 Asia/Tehran] PHP Warning:  include(): Failed opening '/home/xtrcom/public_html/dashboard/includesdashboard-styles.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtrcom/public_html/dashboard/includes/dashboard-navbar.php on line 65
+[29-Jul-2025 18:23:20 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function send_email() in /home/xtrcom/public_html/dashboard/profile.php:49
+Stack trace:
+#0 /home/xtrcom/public_html/dashboard/profile.php(120): send_verification()
+#1 {main}
+  thrown in /home/xtrcom/public_html/dashboard/profile.php on line 49
+[29-Jul-2025 18:27:56 Asia/Tehran] PHP Warning:  require_once(/home/xtrcom/public_html/shared/../php-mailer/src/PHPMailer.php): Failed to open stream: No such file or directory in /home/xtrcom/public_html/shared/notify.php on line 4
+[29-Jul-2025 18:27:56 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtrcom/public_html/shared/../php-mailer/src/PHPMailer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtrcom/public_html/shared/notify.php:4
+Stack trace:
+#0 /home/xtrcom/public_html/dashboard/profile.php(4): require_once()
+#1 {main}
+  thrown in /home/xtrcom/public_html/shared/notify.php on line 4
+[29-Jul-2025 18:27:57 Asia/Tehran] PHP Warning:  require_once(/home/xtrcom/public_html/shared/../php-mailer/src/PHPMailer.php): Failed to open stream: No such file or directory in /home/xtrcom/public_html/shared/notify.php on line 4
+[29-Jul-2025 18:27:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtrcom/public_html/shared/../php-mailer/src/PHPMailer.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtrcom/public_html/shared/notify.php:4
+Stack trace:
+#0 /home/xtrcom/public_html/dashboard/profile.php(4): require_once()
+#1 {main}
+  thrown in /home/xtrcom/public_html/shared/notify.php on line 4
+[30-Jul-2025 15:43:09 Asia/Tehran] PHP Warning:  move_uploaded_file(uploads/avatar_1_1753877589.png): Failed to open stream: No such file or directory in /home/xtrcom/public_html/dashboard/profile.php on line 48
+[30-Jul-2025 15:43:09 Asia/Tehran] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpxxG5ic&quot; to &quot;uploads/avatar_1_1753877589.png&quot; in /home/xtrcom/public_html/dashboard/profile.php on line 48

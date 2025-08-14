@@ -1,0 +1,168 @@
+[05-Jul-2025 20:12:41 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 5
+[05-Jul-2025 20:12:41 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 5
+[05-Jul-2025 20:14:01 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 5
+[05-Jul-2025 20:14:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 5
+[05-Jul-2025 20:14:38 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function getAdminIdFromBearerToken() in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 9
+[05-Jul-2025 20:17:29 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.admin_users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:17
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(17): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 17
+[05-Jul-2025 20:19:14 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.admin_users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:17
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(17): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 17
+[05-Jul-2025 20:22:24 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:73
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(73): mysqli->query()
+#1 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(77): get_count()
+#2 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 73
+[05-Jul-2025 20:25:44 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.support_tickets' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:91
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(91): mysqli->query()
+#1 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(98): get_count()
+#2 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 91
+[05-Jul-2025 20:25:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.support_tickets' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:91
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(91): mysqli->query()
+#1 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(98): get_count()
+#2 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 91
+[05-Jul-2025 22:19:03 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.title_en' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:101
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 101
+[06-Jul-2025 13:42:34 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.title_en' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:101
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 101
+[06-Jul-2025 13:43:42 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.title_en' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:101
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 101
+[06-Jul-2025 13:46:41 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.order_status' in 'on clause' in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:101
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 101
+[06-Jul-2025 13:48:38 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.invoice_number' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:135
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(135): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 135
+[06-Jul-2025 13:50:17 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.user_id' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:134
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php(134): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 134
+[06-Jul-2025 14:45:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php:130
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/dashboard_stats.php on line 130
+[07-Jul-2025 18:23:16 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:23:16 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/admin/list_products.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:26:19 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:26:19 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/admin/list_products.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:27:13 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'title_en' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/list_products.php:79
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_products.php(79): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 79
+[07-Jul-2025 18:29:00 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:29:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/admin/list_products.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:29:13 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.status' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/list_products.php:95
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_products.php(95): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 95
+[07-Jul-2025 18:33:24 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[07-Jul-2025 18:33:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/admin/../../shared/inc/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/admin/list_products.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_products.php on line 3
+[08-Jul-2025 16:37:53 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/list_orders.php:98
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_orders.php(98): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_orders.php on line 98
+[08-Jul-2025 16:38:13 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/list_orders.php:98
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_orders.php(98): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_orders.php on line 98
+[08-Jul-2025 16:40:21 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/list_orders.php:98
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_orders.php(98): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_orders.php on line 98
+[08-Jul-2025 16:47:27 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.order_number' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/list_orders.php:95
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_orders.php(95): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_orders.php on line 95
+[08-Jul-2025 16:47:30 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.order_number' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/list_orders.php:95
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_orders.php(95): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_orders.php on line 95
+[08-Jul-2025 16:49:35 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pt.name_en' in 'field list' in /home/xtreme/public_html/api/endpoints/admin/list_orders.php:102
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/list_orders.php(102): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/list_orders.php on line 102
+[09-Jul-2025 18:15:28 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.support_tickets' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php:57
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/ticket_info.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 57
+[09-Jul-2025 18:15:47 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.support_tickets' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php:57
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/ticket_info.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 57
+[09-Jul-2025 18:16:56 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.support_tickets' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php:57
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/ticket_info.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 57
+[09-Jul-2025 18:22:22 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "..." in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 9
+[09-Jul-2025 18:22:25 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "..." in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 9
+[09-Jul-2025 18:22:29 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "..." in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 9
+[09-Jul-2025 18:22:50 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.users' doesn't exist in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php:35
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/ticket_info.php(35): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/ticket_info.php on line 35
+[16-Jul-2025 20:45:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/admin/joinus_requests.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/joinus_requests.php on line 70
+[10-Aug-2025 15:23:44 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '17-ru' for key 'team_translations.PRIMARY' in /home/xtreme/public_html/api/endpoints/admin/team_edit.php:77
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/admin/team_edit.php(77): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/admin/team_edit.php on line 77

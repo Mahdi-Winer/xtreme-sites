@@ -1,0 +1,474 @@
+[05-Jul-2025 19:52:45 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_auth`.`oauth_tokens`, CONSTRAINT `oauth_tokens_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`) ON DELETE CASCADE) in /home/xtreme/public_html/auth/login-admin.php:38
+Stack trace:
+#0 /home/xtreme/public_html/auth/login-admin.php(38): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/login-admin.php on line 38
+[06-Jul-2025 15:01:44 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_auth`.`oauth_tokens`, CONSTRAINT `oauth_tokens_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/xtreme/public_html/auth/login-admin.php:40
+Stack trace:
+#0 /home/xtreme/public_html/auth/login-admin.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/login-admin.php on line 40
+[06-Jul-2025 15:02:18 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_auth`.`oauth_tokens`, CONSTRAINT `oauth_tokens_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/xtreme/public_html/auth/login-admin.php:40
+Stack trace:
+#0 /home/xtreme/public_html/auth/login-admin.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/login-admin.php on line 40
+[06-Jul-2025 15:02:41 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_auth`.`oauth_tokens`, CONSTRAINT `oauth_tokens_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/xtreme/public_html/auth/login-admin.php:40
+Stack trace:
+#0 /home/xtreme/public_html/auth/login-admin.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/login-admin.php on line 40
+[06-Jul-2025 15:02:51 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_auth`.`oauth_tokens`, CONSTRAINT `oauth_tokens_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/xtreme/public_html/auth/login-admin.php:40
+Stack trace:
+#0 /home/xtreme/public_html/auth/login-admin.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/login-admin.php on line 40
+[06-Jul-2025 15:07:21 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_auth`.`oauth_tokens`, CONSTRAINT `oauth_tokens_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in /home/xtreme/public_html/auth/login-admin.php:40
+Stack trace:
+#0 /home/xtreme/public_html/auth/login-admin.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/auth/login-admin.php on line 40
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[09-Aug-2025 19:16:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[09-Aug-2025 23:31:26 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[10-Aug-2025 02:53:04 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[11-Aug-2025 09:14:44 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[11-Aug-2025 16:06:34 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[12-Aug-2025 17:52:01 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 142
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 142
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 329
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 329
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 335
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 335
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 336
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 336
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 339
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 339
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 340
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 340
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 353
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 353
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 354
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 354
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 357
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 357
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 358
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 358
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Undefined array key "ru" in /home/xtreme/public_html/auth/login.php on line 361
+[12-Aug-2025 17:56:40 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/auth/login.php on line 361
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:29:41 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:29:59 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:29:59 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:29:59 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:29:59 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:29:59 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:01 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:01 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:01 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:01 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:01 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:06 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:07 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:08 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:08 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:08 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:08 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:08 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 20:30:09 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 20:30:09 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 20:30:09 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 20:30:09 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 20:30:09 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 22:45:35 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 22:45:35 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 22:45:35 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 22:45:35 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 22:45:35 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[12-Aug-2025 23:18:56 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[12-Aug-2025 23:18:56 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[12-Aug-2025 23:18:56 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[12-Aug-2025 23:18:56 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[12-Aug-2025 23:18:56 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 01:38:36 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 01:38:36 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 01:38:36 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 01:38:36 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 01:38:36 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 01:38:38 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 01:38:38 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 01:38:38 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 01:38:38 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 01:38:38 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 01:39:01 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 01:39:01 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 01:39:01 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 01:39:01 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 01:39:01 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 01:40:41 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 01:40:41 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 01:40:41 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 01:40:41 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 01:40:41 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 02:17:34 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 02:17:34 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 02:17:34 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 02:17:34 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 02:17:34 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:02 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:14 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:14 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:14 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:14 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:14 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:15 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:15 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:15 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:15 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:15 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:22 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:23 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 03:04:24 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 04:41:57 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 04:41:57 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 04:41:57 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 04:41:57 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 04:41:57 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 05:03:11 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 05:03:11 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 05:03:11 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 05:03:11 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 05:03:11 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 06:10:43 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 06:10:43 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 06:10:43 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 06:10:43 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 06:10:43 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 06:54:47 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 06:54:47 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 06:54:47 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 06:54:47 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 06:54:47 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 06:54:58 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 06:54:58 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 06:54:58 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 06:54:58 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 06:54:58 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:32 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:32 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:32 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:32 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:32 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:33 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:33 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:33 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:33 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:33 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:44 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:50 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:50 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:50 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:50 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:50 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:51 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:52 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:52 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:52 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:52 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:52 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 14:59:53 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:26:39 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:26:39 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:26:39 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:26:39 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:26:39 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:27:03 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:27:03 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:27:03 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:27:03 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:27:03 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:27:05 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:27:05 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:27:05 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:27:05 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:27:05 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:28:04 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:28:04 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:28:04 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:28:04 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:28:04 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:31:27 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:31:27 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:31:27 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:31:27 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:31:27 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:32:05 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:32:05 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:32:05 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:32:05 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:32:05 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:32:06 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:32:09 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:32:09 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:32:09 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:32:09 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:32:09 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:32:33 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:32:33 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:32:33 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:32:33 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:32:33 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:42:38 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:42:38 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:42:38 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:42:38 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:42:38 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:44:21 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:44:21 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:44:21 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:44:21 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:44:21 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:44:45 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:44:45 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:44:45 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:44:45 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:44:45 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:46:30 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:46:30 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:46:30 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:46:30 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:46:30 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:46:34 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:46:34 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:46:34 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:46:34 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:46:34 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14
+[13-Aug-2025 15:46:50 Asia/Tehran] PHP Warning:  Constant MAIN_DOMAIN already defined in /home/xtreme/public_html/shared/inc/config.php on line 3
+[13-Aug-2025 15:46:50 Asia/Tehran] PHP Warning:  Constant ALLOWED_LANGS already defined in /home/xtreme/public_html/shared/inc/config.php on line 7
+[13-Aug-2025 15:46:50 Asia/Tehran] PHP Warning:  Constant DEFAULT_LANG already defined in /home/xtreme/public_html/shared/inc/config.php on line 10
+[13-Aug-2025 15:46:50 Asia/Tehran] PHP Warning:  Constant ASSETS_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 13
+[13-Aug-2025 15:46:50 Asia/Tehran] PHP Warning:  Constant INC_BASE already defined in /home/xtreme/public_html/shared/inc/config.php on line 14

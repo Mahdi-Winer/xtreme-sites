@@ -1,0 +1,301 @@
+[05-Jul-2025 15:28:08 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_core.orders' doesn't exist in /home/xtreme/public_html/api/endpoints/create_order.php:44
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/create_order.php(44): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/create_order.php on line 44
+[05-Jul-2025 15:31:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/my_orders.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_orders.php on line 28
+[05-Jul-2025 15:32:09 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/invoice.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/invoice.php on line 28
+[05-Jul-2025 18:32:43 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.invoice_number' in 'field list' in /home/xtreme/public_html/api/endpoints/my_invoices.php:29
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/my_invoices.php(29): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_invoices.php on line 29
+[07-Jul-2025 18:25:01 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.products' doesn't exist in /home/xtreme/public_html/api/endpoints/list_products.php:79
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/list_products.php(79): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/list_products.php on line 79
+[09-Jul-2025 21:31:25 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/public_projects_list.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/public_projects_list.php on line 19
+[09-Jul-2025 21:36:57 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/public_project_detail.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/public_project_detail.php on line 18
+[10-Jul-2025 14:47:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/team_list.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/team_list.php on line 19
+[12-Jul-2025 17:28:05 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/projects_list.php on line 3
+[12-Jul-2025 17:28:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/projects_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/projects_list.php on line 3
+[12-Jul-2025 17:33:27 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/projects_list.php on line 3
+[12-Jul-2025 17:33:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/projects_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/projects_list.php on line 3
+[12-Jul-2025 19:08:46 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:46 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:48 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:48 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:49 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:49 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[12-Jul-2025 19:08:49 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:10 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:10 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:13 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:13 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:15 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:15 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:15 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:26 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:26 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:26 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:04:26 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:19 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:19 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:40 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:40 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:07:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:28 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:29 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:29 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:43 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:43 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:09:43 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:42 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:42 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:44 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:44 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:44 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:45 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:45 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:12:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:13:45 Asia/Tehran] PHP Warning:  require_once(/home/xtreme/public_html/api/endpoints/../../shared/database-config.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:13:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Failed opening required '/home/xtreme/public_html/api/endpoints/../../shared/database-config.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/api/endpoints/articles_list.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 3
+[13-Jul-2025 14:14:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:22 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:36 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:36 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:37 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:40 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:14:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:16:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:16:50 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_list.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_list.php on line 18
+[13-Jul-2025 14:25:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/articles_get.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/articles_get.php on line 11
+[16-Jul-2025 19:14:53 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/api/endpoints/joinus_requests.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/joinus_requests.php on line 20
+[16-Jul-2025 19:22:17 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'p.code' in 'field list' in /home/xtreme/public_html/api/endpoints/joinus_requests.php:33
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/joinus_requests.php(33): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/joinus_requests.php on line 33
+[27-Jul-2025 18:08:11 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/xtreme/public_html/api/endpoints/my_orders.php:69
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/my_orders.php(69): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_orders.php on line 69
+[27-Jul-2025 18:08:44 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/xtreme/public_html/api/endpoints/my_orders.php:73
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/my_orders.php(73): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_orders.php on line 73
+[27-Jul-2025 18:30:13 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/xtreme/public_html/api/endpoints/my_orders.php:73
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/my_orders.php(73): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_orders.php on line 73
+[27-Jul-2025 18:34:12 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/xtreme/public_html/api/endpoints/my_orders.php:72
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/my_orders.php(72): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_orders.php on line 72
+[27-Jul-2025 19:33:32 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in /home/xtreme/public_html/api/endpoints/my_invoices.php:73
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/my_invoices.php(73): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/my_invoices.php on line 73
+[27-Jul-2025 22:14:10 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invoice_id' in 'field list' in /home/xtreme/public_html/api/endpoints/create_order_invoice.php:38
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/create_order_invoice.php(38): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/create_order_invoice.php on line 38
+[28-Jul-2025 17:21:09 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`xtreme_core`.`orders`, CONSTRAINT `orders_ibfk_2` FOREIGN KEY (`project_id`) REFERENCES `projects` (`id`)) in /home/xtreme/public_html/api/endpoints/create_order_invoice.php:61
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/create_order_invoice.php(61): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/create_order_invoice.php on line 61
+[07-Aug-2025 19:06:45 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'about_us_html' in 'field list' in /home/xtreme/public_html/api/endpoints/settings.php:32
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/settings.php(32): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/settings.php on line 32
+[07-Aug-2025 19:06:45 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'about_us_html' in 'field list' in /home/xtreme/public_html/api/endpoints/settings.php:32
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/settings.php(32): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/settings.php on line 32
+[07-Aug-2025 19:06:46 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'about_us_html' in 'field list' in /home/xtreme/public_html/api/endpoints/settings.php:32
+Stack trace:
+#0 /home/xtreme/public_html/api/endpoints/settings.php(32): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/api/endpoints/settings.php on line 32

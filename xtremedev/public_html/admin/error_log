@@ -1,0 +1,621 @@
+[14-Jun-2025 17:55:59 Asia/Tehran] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/xtreme/public_html/admin/login.php on line 14
+[14-Jun-2025 17:55:59 Asia/Tehran] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in /home/xtreme/public_html/admin/login.php on line 15
+[14-Jun-2025 17:58:35 Asia/Tehran] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in /home/xtreme/public_html/admin/login.php on line 5
+[14-Jun-2025 17:58:35 Asia/Tehran] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in /home/xtreme/public_html/admin/login.php on line 6
+[14-Jun-2025 18:11:38 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.tickets' doesn't exist in /home/xtreme/public_html/admin/index.php:21
+Stack trace:
+#0 /home/xtreme/public_html/admin/index.php(21): mysqli->query()
+#1 /home/xtreme/public_html/admin/index.php(37): get_count()
+#2 {main}
+  thrown in /home/xtreme/public_html/admin/index.php on line 21
+[15-Jun-2025 15:28:23 Asia/Tehran] PHP Warning:  include(includes/navbar.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/readonly-index.php on line 196
+[15-Jun-2025 15:28:23 Asia/Tehran] PHP Warning:  include(includes/navbar.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/readonly-index.php on line 196
+[15-Jun-2025 15:28:23 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/navbar.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/readonly-index.php on line 196
+[15-Jun-2025 15:32:06 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'fullname' in 'field list' in /home/xtreme/public_html/admin/users.php:44
+Stack trace:
+#0 /home/xtreme/public_html/admin/users.php(44): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/users.php on line 44
+[15-Jun-2025 15:40:31 Asia/Tehran] PHP Warning:  include(includes/support-navbar.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/users.php on line 182
+[15-Jun-2025 15:40:31 Asia/Tehran] PHP Warning:  include(includes/support-navbar.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/users.php on line 182
+[15-Jun-2025 15:40:31 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/support-navbar.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/users.php on line 182
+[15-Jun-2025 15:54:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/xtreme/public_html/admin/users.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/xtreme/public_html/admin/users.php on line 34
+[15-Jun-2025 18:02:16 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'price' in 'field list' in /home/xtreme/public_html/admin/products.php:46
+Stack trace:
+#0 /home/xtreme/public_html/admin/products.php(46): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/products.php on line 46
+[15-Jun-2025 20:11:58 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.price' in 'field list' in /home/xtreme/public_html/admin/orders.php:56
+Stack trace:
+#0 /home/xtreme/public_html/admin/orders.php(56): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/orders.php on line 56
+[15-Jun-2025 20:18:20 Asia/Tehran] PHP Warning:  Undefined array key "user_name" in /home/xtreme/public_html/admin/orders.php on line 315
+[15-Jun-2025 20:18:20 Asia/Tehran] PHP Warning:  Undefined array key "user_email" in /home/xtreme/public_html/admin/orders.php on line 316
+[15-Jun-2025 20:18:20 Asia/Tehran] PHP Warning:  Undefined array key "product_title" in /home/xtreme/public_html/admin/orders.php on line 317
+[15-Jun-2025 21:45:51 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.join_us_requests' doesn't exist in /home/xtreme/public_html/admin/join-us-requests.php:103
+Stack trace:
+#0 /home/xtreme/public_html/admin/join-us-requests.php(103): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/join-us-requests.php on line 103
+[04-Jul-2025 19:00:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:38 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:49 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:53 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:53 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:00:53 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:01:13 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:01:13 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:01:13 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 469
+[04-Jul-2025 19:26:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:26:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:26:24 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:26:40 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:26:40 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:26:40 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:27:30 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:27:30 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:27:30 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:28:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:28:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:28:15 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:28:42 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:28:42 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:28:42 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 484
+[04-Jul-2025 19:58:47 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 486
+[04-Jul-2025 19:58:47 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 486
+[04-Jul-2025 19:58:47 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 486
+[04-Jul-2025 20:27:25 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:27:25 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:27:25 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:27:59 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:27:59 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:27:59 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:29:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:29:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[04-Jul-2025 20:29:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:06:01 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:06:01 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:06:01 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:11:53 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:11:53 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:11:53 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:14:47 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:14:47 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:14:47 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 525
+[05-Jul-2025 13:26:37 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 532
+[05-Jul-2025 13:26:37 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 532
+[05-Jul-2025 13:26:37 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 532
+[05-Jul-2025 13:26:50 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 532
+[05-Jul-2025 13:26:50 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 532
+[05-Jul-2025 13:26:50 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 532
+[05-Jul-2025 13:33:43 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 540
+[05-Jul-2025 13:33:43 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 540
+[05-Jul-2025 13:33:43 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 540
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 103
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 103
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 136
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 136
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 137
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 137
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 143
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 143
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 149
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 149
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 152
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 152
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 155
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 155
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 158
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 158
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 161
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 161
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 169
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 169
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 169
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 169
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 171
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 171
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 172
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 172
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 181
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 181
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 181
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 181
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 183
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 183
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 184
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 184
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 195
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 195
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 198
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 198
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 198
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 198
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 203
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 203
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 218
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 218
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 223
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 223
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 224
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 224
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 225
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 225
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 226
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 226
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 227
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 227
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 235
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "order_status" in /home/xtreme/public_html/admin/superadmin-index.php on line 236
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 235
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "order_status" in /home/xtreme/public_html/admin/superadmin-index.php on line 236
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 252
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 252
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 257
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 257
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 258
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 258
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 259
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 259
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 260
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 260
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 261
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 261
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "invoice_number" in /home/xtreme/public_html/admin/superadmin-index.php on line 267
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "invoice_number" in /home/xtreme/public_html/admin/superadmin-index.php on line 267
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 290
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 290
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 295
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 295
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 296
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 296
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 297
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 297
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 298
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 298
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 299
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 299
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 321
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 321
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 321
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 331
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 331
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Undefined array key "en" in /home/xtreme/public_html/admin/superadmin-index.php on line 332
+[06-Jul-2025 13:55:24 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/xtreme/public_html/admin/superadmin-index.php on line 332
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 270
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 270
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 302
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "order_status" in /home/xtreme/public_html/admin/superadmin-index.php on line 303
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/superadmin-index.php on line 302
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "order_status" in /home/xtreme/public_html/admin/superadmin-index.php on line 303
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "invoice_number" in /home/xtreme/public_html/admin/superadmin-index.php on line 334
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  Undefined array key "invoice_number" in /home/xtreme/public_html/admin/superadmin-index.php on line 334
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:21:28 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:36:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:36:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:36:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:50:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:50:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:50:38 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:50:43 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:50:43 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:50:43 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:51:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:51:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:51:04 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:51:11 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:51:11 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:51:11 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:53:03 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:53:03 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:53:03 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:53:57 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:53:57 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 14:53:57 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 15:07:51 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 15:07:51 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 15:07:51 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 15:08:20 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 15:08:20 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 15:08:20 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:54:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:54:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:54:49 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:05 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:05 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:05 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:29 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 16:55:29 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 17:10:02 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 17:10:02 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 17:10:02 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 18:01:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.users' doesn't exist in /home/xtreme/public_html/admin/edit_user.php:86
+Stack trace:
+#0 /home/xtreme/public_html/admin/edit_user.php(86): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/edit_user.php on line 86
+[06-Jul-2025 18:38:36 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "...", expecting end of file in /home/xtreme/public_html/admin/edit_user.php on line 69
+[06-Jul-2025 18:39:16 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 18:39:16 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 18:39:16 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 18:39:19 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.products' doesn't exist in /home/xtreme/public_html/admin/products.php:108
+Stack trace:
+#0 /home/xtreme/public_html/admin/products.php(108): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/products.php on line 108
+[06-Jul-2025 18:39:21 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 18:39:21 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 18:39:21 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 19:26:28 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 19:26:28 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[06-Jul-2025 19:26:28 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 13:32:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 13:32:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 13:32:15 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:22:55 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:22:55 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:22:55 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:34:20 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/products.php on line 222
+[07-Jul-2025 18:34:20 Asia/Tehran] PHP Warning:  Undefined array key "title_en" in /home/xtreme/public_html/admin/products.php on line 222
+[07-Jul-2025 18:37:57 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.products' doesn't exist in /home/xtreme/public_html/admin/edit_product.php:104
+Stack trace:
+#0 /home/xtreme/public_html/admin/edit_product.php(104): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/edit_product.php on line 104
+[07-Jul-2025 18:50:14 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:14 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:14 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:22 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:22 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:22 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:25 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:25 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:25 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:30 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:30 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[07-Jul-2025 18:50:30 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 13:44:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 13:44:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 13:44:24 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 13:57:40 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.projects' doesn't exist in /home/xtreme/public_html/admin/add_product.php:82
+Stack trace:
+#0 /home/xtreme/public_html/admin/add_product.php(82): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/add_product.php on line 82
+[08-Jul-2025 16:14:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 16:14:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 16:14:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 16:34:17 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.orders' doesn't exist in /home/xtreme/public_html/admin/orders.php:132
+Stack trace:
+#0 /home/xtreme/public_html/admin/orders.php(132): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/orders.php on line 132
+[08-Jul-2025 16:36:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 16:36:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 16:36:04 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "order_number" in /home/xtreme/public_html/admin/orders.php on line 226
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "amount" in /home/xtreme/public_html/admin/orders.php on line 229
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "payment_gateway" in /home/xtreme/public_html/admin/orders.php on line 230
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "payment_ref" in /home/xtreme/public_html/admin/orders.php on line 231
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "order_status" in /home/xtreme/public_html/admin/orders.php on line 232
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "paid_at" in /home/xtreme/public_html/admin/orders.php on line 234
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "order_number" in /home/xtreme/public_html/admin/orders.php on line 226
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "amount" in /home/xtreme/public_html/admin/orders.php on line 229
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "payment_gateway" in /home/xtreme/public_html/admin/orders.php on line 230
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "payment_ref" in /home/xtreme/public_html/admin/orders.php on line 231
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "order_status" in /home/xtreme/public_html/admin/orders.php on line 232
+[08-Jul-2025 17:01:49 Asia/Tehran] PHP Warning:  Undefined array key "paid_at" in /home/xtreme/public_html/admin/orders.php on line 234
+[08-Jul-2025 17:05:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.invoices' doesn't exist in /home/xtreme/public_html/admin/invoices.php:119
+Stack trace:
+#0 /home/xtreme/public_html/admin/invoices.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/invoices.php on line 119
+[08-Jul-2025 17:13:55 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.invoices' doesn't exist in /home/xtreme/public_html/admin/invoices.php:119
+Stack trace:
+#0 /home/xtreme/public_html/admin/invoices.php(119): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/invoices.php on line 119
+[08-Jul-2025 18:30:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 18:30:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 18:30:15 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 19:27:46 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 19:27:46 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 19:27:46 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 19:37:27 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 19:37:27 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[08-Jul-2025 19:37:27 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 12:52:11 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 12:52:11 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 12:52:11 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 17:12:12 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 17:12:12 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 17:12:12 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 17:20:43 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.invoices' doesn't exist in /home/xtreme/public_html/admin/edit_invoice.php:75
+Stack trace:
+#0 /home/xtreme/public_html/admin/edit_invoice.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/edit_invoice.php on line 75
+[09-Jul-2025 18:07:40 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.support_tickets' doesn't exist in /home/xtreme/public_html/admin/support_ticket_manage.php:83
+Stack trace:
+#0 /home/xtreme/public_html/admin/support_ticket_manage.php(83): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/support_ticket_manage.php on line 83
+[09-Jul-2025 18:15:44 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 18:15:44 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 18:15:44 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 20:54:41 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 20:54:41 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 20:54:41 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 20:54:57 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.invoices' doesn't exist in /home/xtreme/public_html/admin/edit_invoice.php:75
+Stack trace:
+#0 /home/xtreme/public_html/admin/edit_invoice.php(75): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/edit_invoice.php on line 75
+[09-Jul-2025 20:55:11 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 20:55:11 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 20:55:11 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 388
+[09-Jul-2025 21:06:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:06:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:06:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:11:20 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:11:20 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:11:20 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:11:23 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.users' doesn't exist in /home/xtreme/public_html/admin/join-us-requests.php:177
+Stack trace:
+#0 /home/xtreme/public_html/admin/join-us-requests.php(177): mysqli->query()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/join-us-requests.php on line 177
+[09-Jul-2025 21:11:27 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:11:27 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:11:27 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 422
+[09-Jul-2025 21:15:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:15:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:15:24 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:16:22 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:16:22 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:16:22 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:20:46 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:20:46 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[09-Jul-2025 21:20:46 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[10-Jul-2025 12:12:31 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[10-Jul-2025 12:12:31 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[10-Jul-2025 12:12:31 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[10-Jul-2025 12:59:59 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[10-Jul-2025 12:59:59 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[10-Jul-2025 12:59:59 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:03:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:03:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:03:49 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:04:02 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:04:02 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:04:02 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:05:13 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.admin_users' doesn't exist in /home/xtreme/public_html/admin/edit_invoice.php:55
+Stack trace:
+#0 /home/xtreme/public_html/admin/edit_invoice.php(55): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/edit_invoice.php on line 55
+[11-Jul-2025 18:09:36 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:09:36 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[11-Jul-2025 18:09:36 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 14:14:40 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 14:14:40 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 14:14:40 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 17:27:41 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 17:27:41 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 17:27:41 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 18:50:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 18:50:49 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[12-Jul-2025 18:50:49 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[13-Jul-2025 14:03:23 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[13-Jul-2025 14:03:23 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[13-Jul-2025 14:03:23 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  include(/home/xtreme/public_html/admin/../shared/inc/admin-styles.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/articles_list.php on line 65
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  include(/home/xtreme/public_html/admin/../shared/inc/admin-styles.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/articles_list.php on line 65
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  include(): Failed opening '/home/xtreme/public_html/admin/../shared/inc/admin-styles.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/articles_list.php on line 65
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  include(/home/xtreme/public_html/admin/includes/admin-navbar.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/articles_list.php on line 97
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  include(/home/xtreme/public_html/admin/includes/admin-navbar.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/articles_list.php on line 97
+[13-Jul-2025 14:07:14 Asia/Tehran] PHP Warning:  include(): Failed opening '/home/xtreme/public_html/admin/includes/admin-navbar.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/articles_list.php on line 97
+[13-Jul-2025 14:07:19 Asia/Tehran] PHP Warning:  include(/home/xtreme/public_html/admin/includes/admin-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/articles_list.php on line 173
+[13-Jul-2025 14:07:19 Asia/Tehran] PHP Warning:  include(/home/xtreme/public_html/admin/includes/admin-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/articles_list.php on line 173
+[13-Jul-2025 14:07:19 Asia/Tehran] PHP Warning:  include(): Failed opening '/home/xtreme/public_html/admin/includes/admin-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/articles_list.php on line 173
+[16-Jul-2025 20:27:05 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[16-Jul-2025 20:27:05 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[16-Jul-2025 20:27:05 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[17-Jul-2025 15:03:33 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[17-Jul-2025 15:03:33 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[17-Jul-2025 15:03:33 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[17-Jul-2025 16:35:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[17-Jul-2025 16:35:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[17-Jul-2025 16:35:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:09:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:09:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:09:38 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:14 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:14 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:14 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:18 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:18 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:18 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:24 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:24 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:18:29 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:29 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:29 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:34 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.admin_users' doesn't exist in /home/xtreme/public_html/admin/joinus-projects-management.php:64
+Stack trace:
+#0 /home/xtreme/public_html/admin/joinus-projects-management.php(64): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/joinus-projects-management.php on line 64
+[18-Jul-2025 19:19:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:38 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:19:44 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.admin_users' doesn't exist in /home/xtreme/public_html/admin/team-management.php:59
+Stack trace:
+#0 /home/xtreme/public_html/admin/team-management.php(59): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/team-management.php on line 59
+[18-Jul-2025 19:20:02 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'xtreme_xtremedevelopment.admin_users' doesn't exist in /home/xtreme/public_html/admin/settings-management.php:61
+Stack trace:
+#0 /home/xtreme/public_html/admin/settings-management.php(61): mysqli->prepare()
+#1 {main}
+  thrown in /home/xtreme/public_html/admin/settings-management.php on line 61
+[18-Jul-2025 19:22:09 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:22:09 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[18-Jul-2025 19:22:09 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 14:37:33 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 14:37:33 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 14:37:33 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 14:37:48 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 14:37:48 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 14:37:48 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 17:07:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 17:07:15 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[19-Jul-2025 17:07:15 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[20-Jul-2025 17:36:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[20-Jul-2025 17:36:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[20-Jul-2025 17:36:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[25-Jul-2025 17:34:21 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[25-Jul-2025 17:34:21 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[25-Jul-2025 17:34:21 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 14:32:17 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 14:32:17 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 14:32:17 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 17:44:19 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 17:44:19 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 17:44:19 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 18:11:12 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:11:36 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:12:14 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:12:23 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:12:27 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:12:30 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:12:57 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:13:02 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 18:13:02 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 18:13:02 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 18:13:04 Asia/Tehran] PHP Warning:  Undefined array key "category_id" in /home/xtreme/public_html/admin/edit_product.php on line 119
+[04-Aug-2025 18:17:56 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 18:17:56 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 18:17:56 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 19:39:48 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'xtreme_xtremedevelopment'@'localhost' (using password: YES) in /home/xtreme/public_html/shared/inc/database-config.php:8
+Stack trace:
+#0 /home/xtreme/public_html/shared/inc/database-config.php(8): mysqli->__construct()
+#1 /home/xtreme/public_html/admin/joinus-projects-management.php(3): require_once('/home/xtreme/pu...')
+#2 {main}
+  thrown in /home/xtreme/public_html/shared/inc/database-config.php on line 8
+[04-Aug-2025 19:44:03 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 19:44:03 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 19:44:03 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 414
+[04-Aug-2025 19:52:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 425
+[04-Aug-2025 19:52:06 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 425
+[04-Aug-2025 19:52:06 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 425
+[04-Aug-2025 19:56:46 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 19:56:46 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 19:56:46 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:01:55 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:01:55 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:01:55 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:15:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:15:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:15:04 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:16:08 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:16:08 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:16:08 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:16:17 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:16:17 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:16:17 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:08 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:08 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:08 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:10 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:10 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:10 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:38 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 20:17:38 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:04:16 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:04:16 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:04:16 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:24:39 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'xtreme_xtremedevelopment'@'localhost' (using password: YES) in /home/xtreme/public_html/shared/inc/database-config.php:8
+Stack trace:
+#0 /home/xtreme/public_html/shared/inc/database-config.php(8): mysqli->__construct()
+#1 /home/xtreme/public_html/admin/edit_order.php(7): require_once('/home/xtreme/pu...')
+#2 {main}
+  thrown in /home/xtreme/public_html/shared/inc/database-config.php on line 8
+[04-Aug-2025 21:43:44 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:43:44 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:43:44 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[04-Aug-2025 21:43:50 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'xtreme_xtremedevelopment'@'localhost' (using password: YES) in /home/xtreme/public_html/shared/inc/database-config.php:8
+Stack trace:
+#0 /home/xtreme/public_html/shared/inc/database-config.php(8): mysqli->__construct()
+#1 /home/xtreme/public_html/admin/edit_invoice.php(7): require_once('/home/xtreme/pu...')
+#2 {main}
+  thrown in /home/xtreme/public_html/shared/inc/database-config.php on line 8
+[05-Aug-2025 13:16:43 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:16:43 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:16:43 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:17:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:17:04 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:17:04 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:17:14 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:17:14 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:17:14 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:39:51 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:39:51 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 13:39:51 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 14:58:57 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 14:58:57 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 14:58:57 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[05-Aug-2025 15:10:22 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'xtreme_xtremedevelopment'@'localhost' (using password: YES) in /home/xtreme/public_html/shared/inc/database-config.php:8
+Stack trace:
+#0 /home/xtreme/public_html/shared/inc/database-config.php(8): mysqli->__construct()
+#1 /home/xtreme/public_html/admin/edit_invoice.php(7): require_once('/home/xtreme/pu...')
+#2 {main}
+  thrown in /home/xtreme/public_html/shared/inc/database-config.php on line 8
+[06-Aug-2025 14:56:07 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[06-Aug-2025 14:56:07 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[06-Aug-2025 14:56:07 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[06-Aug-2025 18:26:51 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[06-Aug-2025 18:26:51 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[06-Aug-2025 18:26:51 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[07-Aug-2025 14:39:42 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[07-Aug-2025 14:39:42 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[07-Aug-2025 14:39:42 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[07-Aug-2025 18:42:34 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[07-Aug-2025 18:42:34 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[07-Aug-2025 18:42:34 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[09-Aug-2025 20:05:33 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[09-Aug-2025 20:05:33 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[09-Aug-2025 20:05:33 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 12:01:10 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 12:01:10 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 12:01:10 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 15:11:10 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 15:11:10 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 15:11:10 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 16:03:18 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 16:03:18 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 16:03:18 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 16:24:56 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 16:24:56 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 16:24:56 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 19:01:48 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 19:01:48 Asia/Tehran] PHP Warning:  include(includes/dashboard-footer.php): Failed to open stream: No such file or directory in /home/xtreme/public_html/admin/superadmin-index.php on line 437
+[10-Aug-2025 19:01:48 Asia/Tehran] PHP Warning:  include(): Failed opening 'includes/dashboard-footer.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/xtreme/public_html/admin/superadmin-index.php on line 437
